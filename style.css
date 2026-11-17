@@ -1,0 +1,95 @@
+
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #17324d;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+/* Welcome section */
+
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e5eef5;
+}
+
+.welcome h2 {
+    color: #17324d;
+    font-size: 32px;
+}
+
+
+/* About section */
+
+.about {
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    text-align: center;
+}
+
+
+/* Login section */
+
+.login {
+    text-align: center;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.login-box h3 {
+    color: #17324d;
+}
+
+.login-box a {
+    display: inline-block;
+    background-color: #17324d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #17324d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
