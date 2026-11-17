@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
@@ -73,4 +77,156 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+
+
+/* ADMIN DASHBOARD */
+
+.dashboard-welcome {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #e5eef5;
+}
+
+.dashboard-welcome h2 {
+    color: #17324d;
+    font-size: 30px;
+}
+
+
+/* DASHBOARD STATISTICS */
+
+.dashboard-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.stat-box {
+    background-color: white;
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.stat-box h3 {
+    color: #17324d;
+    font-size: 28px;
+    margin: 0;
+}
+
+.stat-box p {
+    color: #555555;
+}
+
+
+/* MANAGEMENT SECTION */
+
+.management {
+    text-align: center;
+    padding: 20px;
+}
+
+.management h2 {
+    color: #17324d;
+}
+
+.management-box {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.management-box h3 {
+    color: #17324d;
+}
+
+.management-box a {
+    display: inline-block;
+    background-color: #17324d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.management-box a:hover {
+    background-color: #285577;
+}
+
+
+/* PRODUCTS AND ORDERS TABLES */
+
+.products,
+.orders {
+    background-color: white;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+.products h2,
+.orders h2 {
+    color: #17324d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #17324d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5f8;
+}
+
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    .dashboard-stats {
+        flex-wrap: wrap;
+    }
+
+    .stat-box {
+        width: 40%;
+    }
+
+    .management-box {
+        width: 90%;
+    }
+
+    .products,
+    .orders {
+        margin: 10px;
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 550px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
 }
